@@ -1,0 +1,42 @@
+.l-person {
+    .c-avatar {
+        text-align: center;
+    }
+
+    .l-avatar-info {
+        .c-avatar-info {
+            text-align: center;
+            background-color: #00bfa6;
+            color: #f5f5f5;
+        }
+    }
+
+    .l-avatar-films {
+        .l-avatar-films-title {
+            .c-avatar-films-title {
+                color: #fff;
+                font-weight: bold;
+            }
+        }
+
+        .l-avatar-films-list {
+            .c-avatar-list-item {
+                color: #808080 !important;
+            }
+        }
+    }
+
+    .l-avatar-vehicles {
+        .l-avatar-vehicles-title {
+            .c-avatar-vehicles-title {
+                color: #fff;
+                font-weight: bold;
+            }
+        }
+        .l-avatar-vehicles-list {
+            .c-avatar-list-item {
+                color: #808080 !important;
+            }
+        }
+    }
+}
