@@ -3,7 +3,7 @@ fetch('https://swapi.dev/api/people/10', { method: 'GET' }).then(res => {
         document.getElementById('avartar-name').innerHTML = res.name
         document.getElementById('c-avatar-info-text-height').innerHTML = res.height / 100
         document.getElementById('c-avatar-info-text-mass').innerHTML = res.mass + 'kg'
-        document.getElementById('c-avatar-info-text-haircolor').innerHTML = res.hair_color == 'n/a' ? 'não aplicável' : res.hair_color
+        document.getElementById('c-avatar-info-text-haircolor').innerHTML = res.hair_color === 'n/a' ? 'não aplicável' : res.hair_color
         document.getElementById('c-avatar-info-text-gender').innerHTML = generateGender(res.gender)
         
         if (res.films.length) {
